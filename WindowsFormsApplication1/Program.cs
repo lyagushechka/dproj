@@ -8,25 +8,15 @@ namespace WindowsFormsApplication1
 {
     static class Program
     {
-        public static Formsotr fsotrd;
-        public static addevent fevent;
-        public static addsotrudnik faddsotrd;
-        public static pacienty fpacienty;
-
-
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
         [STAThread]
         static void Main()
         {
-
-
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Loginform());
+            Application.Run(new Form1());
         }
-
-        //public static System.Windows.Forms.Panel panel3;
     }
 }
